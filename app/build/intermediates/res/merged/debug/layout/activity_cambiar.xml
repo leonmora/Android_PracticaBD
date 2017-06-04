@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reserva.cambiar">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="Reservación"
+        android:inputType="textPersonName" />
+
+    <SeekBar
+        android:id="@+id/personas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:max="30" />
+
+    <TextView
+        android:id="@+id/infoPersonas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="Personas" />
+
+    <Button
+        android:id="@+id/cambiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Guardar Cambios"
+        android:onClick="cambiar"
+        android:layout_below="@+id/personas"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

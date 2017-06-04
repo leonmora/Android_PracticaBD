@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Saul\.android\build-cache\d37e527ee50253c005ed885bd0fe66056217cdd1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Saul\Desktop\Practicas\ReservaBD\app\build\intermediates\pre-dexed\debug\classes_487415ef01f07d9b7282ec233e99f08f02a9797b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Saul\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Saul\Desktop\Practicas\ReservaBD\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_24652615e06074517bd455690b64758f8b999589.jar" />
+    </item>
+
+</items>
